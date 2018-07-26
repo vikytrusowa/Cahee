@@ -11,7 +11,7 @@
 
                 <!--Home-->
     <header class="header" id="home">
-        <div class="container_row name">
+        <div class="container_row ">
             <h1 class="header_logo">Cahee</h1>
             <nav class="menu">
                 <ul>
@@ -62,7 +62,7 @@
                 <!--Services-->
 
     <section id="services" class="services">
-    <div class="container_row">
+    <div class="container_row services__container">
         <ul class="services_ul">
             <li class="services_li">
                 <a href="#" class="services_li__text">Online Shopping </a>
@@ -83,7 +83,6 @@
         </ul>
         <div class="services_right">
             <h2 class="container_column__about services_title">Our Services</h2>
-           <img src="img/img-3.png" class="services_img" alt="tomato">
         </div>
     </div>
     </section>
@@ -98,13 +97,13 @@
         </span>
         </div>
         <div class="container_row row_img">
-            <div class="row_img__big galary_margin mask"></div>
-            <div class="container_column column_img galary_margin">
+            <div class="row_img__big  mask"></div>
+            <div class="container_column column_img ">
                 <div class="row_img__little image-2 mask"></div>
                 <div class="row_img__little image-3 mask"></div>
             </div>
-            <div class="row_img__middle image-4 mask"></div>
-            <div class="row_img__middle image-5 mask"></div>
+            <div class="row_img__middle image-4 mask galary_margin"></div>
+            <div class="row_img__middle image-5 mask galary_margin"></div>
         </div>
         <button type="button" class="gallary_button button">View More</button>
     </section>
@@ -127,43 +126,45 @@
 
                 <!--Blog-->
 
-    <section class="container_column blog" id="blog">
-        <h2 class="container_column__about blog_title">Blog</h2>
-        <span class="container_column__text blog_text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
-        <div class="container_row image">
-            <div class="image_1 container_column element" >
-                <div class="data">
-                    <span class="data_number">20</span>
-                    <span class="data_text">nov</span>
+    <section class="blog" id="blog">
+        <div class="container_column blog__container">
+            <h2 class="container_column__about blog_title">Blog</h2>
+            <span class="container_column__text blog_text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+            <div class="container_row image">
+                <div class="image_1 container_column element" >
+                    <div class="data">
+                        <span class="data_number">20</span>
+                        <span class="data_text">nov</span>
+                    </div>
+                    <div class="text">
+                        <h4 class="text_title">Green Smoothies: Too Much of a Good Thing?</h4>
+                        <span class="text_activ">By Auskteez - 2 hours ago</span>
+                    </div>
                 </div>
-                <div class="text">
-                    <h4 class="text_title">Green Smoothies: Too Much of a Good Thing?</h4>
-                    <span class="text_activ">By Auskteez - 2 hours ago</span>
+                <div class="image_2 container_column element">
+                    <div class="data">
+                        <span class="data_number">14</span>
+                        <span class="data_text">nov</span>
+                    </div>
+                    <div class="text">
+                        <h4 class="text_title">Growing Food and a “Thirst” for Innovation</h4>
+                        <span class="text_activ">By Auskteez - 3 hours ago</span>
+                    </div>
+                </div>
+                <div class="image_3 container_column element">
+                    <div class="data">
+                        <span class="data_number">10</span>
+                        <span class="data_text">nov</span>
+                    </div>
+                    <div class="text">
+                        <h4 class="text_title">Pesticides & Food: What You Need to Know</h4>
+                        <span class="text_activ">By Auskteez - 6 hours ago</span>
+                    </div>
                 </div>
             </div>
-            <div class="image_2 container_column element">
-                <div class="data">
-                    <span class="data_number">14</span>
-                    <span class="data_text">nov</span>
-                </div>
-                <div class="text">
-                    <h4 class="text_title">Growing Food and a “Thirst” for Innovation</h4>
-                    <span class="text_activ">By Auskteez - 3 hours ago</span>
-                </div>
-            </div>
-            <div class="image_3 container_column element">
-                <div class="data">
-                    <span class="data_number">10</span>
-                    <span class="data_text">nov</span>
-                </div>
-                <div class="text">
-                    <h4 class="text_title">Pesticides & Food: What You Need to Know</h4>
-                    <span class="text_activ">By Auskteez - 6 hours ago</span>
-                </div>
-            </div>
+            <button type="button" class="blog_button button">View More</button>
         </div>
-        <button type="button" class="blog_button button">View More</button>
     </section>
 
                 <!--Contact-->
@@ -174,11 +175,11 @@
            <span class="container_column__info contact_title_text">For new projects, ideas, business or anything you'd like to discuss, contact with me!</span>
        </div>
         <div class="container_row">
-                <form class="container_column">
+                <form class="container_column form">
                         <input  type="text" value="Auskteez Tran" class="container_column__name input">
-                        <input type="email" value="Your email..." class="container_column__input form input" >
-                        <input  type="tel" value="Your phone number...." class="container_column__input form input">
-                    <textarea class="container_column__textarea form input" type="text">Your messge...</textarea>
+                        <input type="email" value="Your email..." class="container_column__input form__input input" >
+                        <input  type="tel" value="Your phone number...." class="container_column__input form__input input">
+                    <textarea class="container_column__textarea form__input input" type="text">Your messge...</textarea>
                 </form>
                 <ul class="list">
                     <li class="list_title">Address</li>

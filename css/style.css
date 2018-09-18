@@ -9,6 +9,7 @@ body{
             /* Home*/
 .header{
     background: #f9f8fb url("../img/img.png")  no-repeat;
+    background-size: cover;
     height: 874px;
     position: relative;
     padding-top: 2%;
@@ -36,6 +37,11 @@ body{
 }
 
 .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 65%;
     padding-top: 20px;
     word-spacing: 30px;
 }
@@ -55,10 +61,19 @@ body{
 .menu_element__link:hover{
     border-top: 4px solid #ff6033;
 }
+.menu__mobile{
+    display: none;
+    position: absolute;
+    right: 4%;
+}
+
+.menu .menu__open{
+    display: inline-block;
+}
+
 .home{
     border-top: 4px solid #ff6033;
 }
-
 .container_row{
     display: flex;
     flex-direction: row;
@@ -511,4 +526,16 @@ body{
 }
 .footer__info--link:hover{
     color: aqua;
+}
+
+
+@media screen and (max-width: 999px) {
+    .menu__mobile{
+        display: inline-block;
+        align-self: center;
+    }
+    .links{
+        display: none;
+
+    }
 }

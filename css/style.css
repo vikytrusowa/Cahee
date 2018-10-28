@@ -252,7 +252,7 @@ body{
 }
 .row_img__big{
     flex-basis: 700px;
-    max-height: 493px;
+    height: 493px;
     background: url("../img/img1.png") no-repeat;
     background-size: cover;
 }
@@ -537,5 +537,26 @@ body{
     .links{
         display: none;
 
+    }
+    .header_info {
+        width: 830px;
+    }
+    .row_img {
+        width: 972px;
+    }
+    .gallary {
+        height: 1810px;
+    }
+    .subscribe_container {
+        width: 840px;
+    }
+    .image {
+        width: 955px;
+    }
+    .column_img {
+        justify-content: space-around;
+    }
+    .header {
+        height: 630px;
     }
 }
